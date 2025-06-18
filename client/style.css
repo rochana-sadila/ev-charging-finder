@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 1rem 1rem 1rem;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#filters {
+  padding: 0.5rem 1rem;
+  background: #eee;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+#filters label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+#filters input,
+#filters select {
+  padding: 0.2rem 0.4rem;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+}
+
+#filters button {
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
